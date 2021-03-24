@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "DIN";
+  src: url("/fonts/DINAlternateBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Cafe";
+  src: url("/fonts/LouisGeorgeCafe.ttf") format("truetype");
+}
+
+html {
+  background-image: url(/images/background.jpg);
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "DIN", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.help {
+ width: 100px;
+ height: 100px;
+ border: 0;
+ background: transparent;
+ outline: none;
+}
+
+.help__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.25rem;
+  font-family: "Cafe", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.col {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__button {
+  margin: 0.5rem;
+  width: 180px;
+  height: 310px;
+  background-color: #494d52;
+  border: 3px solid black;
+}
+
+.main__button:hover {
+  border: 3px solid #e3dc12;
+}
+
+[hidden] {
+	display: none !important;
+}
+
+.modal {
+  position: fixed; 
+  padding: 20rem 0;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.6);
+}
+
+
+.modal__content {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  max-width: 500px;
+  padding: 1rem;
+  font-family: "Cafe";
+  border-radius: 5%;
+}
+
+#modal__exit {
+  width: 5rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0.3rem 0;
+  font-family: "DIN";
+}
+
+
+
+#modal__img {
+  margin-bottom: 1rem;
+}
+
+#modal__disc {
+  font-size: 1.4rem;
+  padding: 0 1.25rem;
+  margin: 0;
+}
+
+#sigma {
+  background-image: url(images/sigma.png);
+}
+
+#roadhog {
+  background-image: url(images/roadhog.png);
+}
+
+#tracer {
+  background-image: url(images/tracer.png);
+}
+
+#ball {
+  background-image: url(images/ball.png);
+}
+
+#bastion {
+  background-image: url(images/bastion.png);
+}
+
+#mccree {
+  background-image: url(images/mccree.png);
+}
+
+#lucio {
+  background-image: url(images/lucio.png);
+}
+
+#zen {
+  background-image: url(images/zen.png);
+}
+
+#dva {
+  background-image: url(images/dva.png);
+}
+
+#zarya {
+  background-image: url(images/zarya.png);
+}
+
+#winston {
+  background-image: url(images/winston.png);
+}
+
+#junkrat {
+  background-image: url(images/junkrat.png);
+}
+
+#help {
+  background-image: url(/images/help.png);
+}

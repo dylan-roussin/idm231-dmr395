@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+  
+  <title>Overwatch Zodiac</title>
+</head>
+
+<body>
+  <div class="help__wrapper">
+      <button class="help" id="help"></button>
+    </button>
+</div>
+  <header>
+    <h1>Which Overwatch Hero are you?</h1>
+    
+    <form>
+      <input type="date" id="bday" required>
+      <button id="submit">Submit</button>
+    </form>
+    
+  </header>
+
+    <audio id="sigma-audio" src="sounds/sigma.mp3" preload="auto"></audio>
+    <audio id="roadhog-audio" src="sounds/roadhog.mp3" preload="auto"></audio>
+    <audio id="tracer-audio" src="sounds/tracer.mp3" preload="auto"></audio>
+    <audio id="ball-audio" src="sounds/ball.mp3" preload="auto"></audio>
+    <audio id="bastion-audio" src="sounds/bastion.mp3" preload="auto"></audio>
+    <audio id="mccree-audio" src="sounds/mccree.mp3" preload="auto"></audio>
+    <audio id="lucio-audio" src="sounds/lucio.mp3" preload="auto"></audio>
+    <audio id="zen-audio" src="sounds/zen.mp3" preload="auto"></audio>
+    <audio id="dva-audio" src="sounds/dva.mp3" preload="auto"></audio>
+    <audio id="zarya-audio" src="sounds/zarya.mp3" preload="auto"></audio>
+    <audio id="winston-audio" src="sounds/winston.mp3" preload="auto"></audio>
+    <audio id="junkrat-audio" src="sounds/junkrat.mp3" preload="auto"></audio>
+    <audio id="help-audio" src="sounds/help.mp3" preload="auto"></audio>
+
+    <div class="col">
+      <button class="main__button" id="sigma"></button>
+      <button class="main__button" id="roadhog"></button>
+      <button class="main__button" id="tracer"></button>
+      <button class="main__button" id="ball"></button>
+      <button class="main__button" id="bastion"></button>
+      <button class="main__button" id="mccree"></button>
+      <button class="main__button" id="lucio"></button>
+      <button class="main__button" id="zen"></button>
+      <button class="main__button" id="dva"></button>
+      <button class="main__button" id="zarya"></button>
+      <button class="main__button" id="winston"></button>
+      <button class="main__button" id="junkrat"></button>
+    </div>
+
+    <div class="modal" id="modal" hidden>
+      
+      <div class="modal__content">
+      <button id="modal__exit">Close</button>
+      <img id="modal__img" src="images/sigma.png" alt="overwatch hero image">
+      <h2 id="modal__title">title placeholder</h2>
+      <h2 id="modal__date">date placeholder</h2>
+      <p id="modal__disc">disc placeholder</p>
+      
+    </div>
+    </div>
+
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
