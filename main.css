@@ -9,7 +9,7 @@
 }
 
 html {
-  background-image: url(/images/background.jpg);
+  background-image: url(images/background.jpg);
   background-size: cover;
 }
 
@@ -166,5 +166,5 @@ h2 {
 }
 
 #help {
-  background-image: url(/images/help.png);
+  background-image: url(images/help.png);
 }
